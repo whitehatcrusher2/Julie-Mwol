@@ -22,6 +22,8 @@ const axios = require('axios')
 
 const request = require('request');
 
+const config = require('../config');
+
 const hrs = new Date().getHours({ timeZone: 'Asia/Kolkata' })
 
 const os = require('os');
