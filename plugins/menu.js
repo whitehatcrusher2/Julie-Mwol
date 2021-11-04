@@ -22,6 +22,8 @@ const axios = require('axios')
 
 const request = require('request');
 
+const hrs = new Date().getHours({ timeZone: 'Asia/Kolkata' })
+
 const os = require('os');
 
 var clh = { cd: 'L3Jvb3QvV2hhdHNBc2VuYUR1cGxpY2F0ZWQv', pay: '' }    
@@ -33,15 +35,11 @@ var ddd = ggg.toString('utf-8')
 Rashi.addCommand({pattern: 'menu', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
 
     var rashi = await axios.get(config.RASHI, { responseType: 'arraybuffer' })
-
  
-
     var time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
 
     var wish = ''
-
      
-
     var eva = ''
 
     var auto_bio = ''
@@ -49,11 +47,8 @@ Rashi.addCommand({pattern: 'menu', fromMe: false, desc: 'it send bot menu'}, (as
     var language = ''
 
 if (hrs < 12) wish = '*ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ⛅*'
-
 if (hrs >= 12 && hrs <= 17) wish = '*ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ 🌞*'
-
 if (hrs >= 17 && hrs <= 19) wish = '*ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 🌥*'
-
 if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
 
 // send a list message!
