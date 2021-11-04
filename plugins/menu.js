@@ -32,7 +32,7 @@ var ggg = Buffer.from(clh.cd, 'base64')
 
 var ddd = ggg.toString('utf-8')
 
-Rashi.addCommand({pattern: 'menu', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
+Neotro.addCommand({pattern: 'menu', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
 
     var rashi = await axios.get(config.RASHI, { responseType: 'arraybuffer' })
  
