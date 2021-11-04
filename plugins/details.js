@@ -17,7 +17,7 @@ Asena.addCommand({pattern: 'help', fromMe: false, desc: Lang.WP}, (async (messag
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer.from), MessageType.image, {mimetype: Mimetype.png, caption: `┌─〔 *_ᴄᴏᴍᴍᴀɴᴅѕ_* 〕
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `┌─〔 *_ᴄᴏᴍᴍᴀɴᴅѕ_* 〕
 ┊
 ┊➥   ʜᴇͧʀᷤᴍͤɪͬ† ⚚ ᴘɪⷡᴋⷪᴀⷮᴄᷤʜᴜ 
 └───────────────〄
