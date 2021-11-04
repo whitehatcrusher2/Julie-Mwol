@@ -244,12 +244,12 @@
         "updater": {
             "UPDATER_DESC": "Checks the update.",
             "UPDATE": "ʜᴇͧʀᷤᴍͤɪͬ† ⚚ ᴘɪⷡᴋⷪᴀⷮᴄᷤʜᴜ *ɪѕ ᴜᴘ ᴛᴏ ᴅᴀᴛᴇ*",
-            "NEW_UPDATE": "*New update available for* ʜᴇͧʀᷤᴍͤɪͬ† ⚚ ᴘɪⷡᴋⷪᴀⷮᴄᷤʜᴜ\n\n Join For Getting Updates \n https://chat.whatsapp.com/KVPJ8cQw4lR9zTTFPM8mbH \n\nChanges:\n",
+            "NEW_UPDATE": "*New update available for* ʜᴇͧʀᷤᴍͤɪͬ† ⚚ ᴘɪⷡᴋⷪᴀⷮᴄᷤʜᴜ\n\n  Join Our Group :-\n https://chat.whatsapp.com/KVPJ8cQw4lR9zTTFPM8mbH \n\nUPDATE:\n",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "ʜᴇͧʀᷤᴍͤɪͬ† ⚚ ᴘɪⷡᴋⷪᴀⷮᴄᷤʜᴜ ɪѕ ᴜᴘᴅᴀᴛɪɴɢ \n ᴅᴜʀᴀᴛɪᴏɴ : 𝟻 ᴍɪɴᴜᴛᴇ ᴜᴘᴅᴀᴛᴇ",
+            "UPDATING": "ʜᴇͧʀᷤᴍͤɪͬ† ⚚ ᴘɪⷡᴋⷪᴀⷮᴄᷤʜᴜ ɪѕ ᴜᴘᴅᴀᴛɪɴɢ \n ᴅᴜʀᴀᴛɪᴏɴ : 4 ᴍɪɴᴜᴛᴇ ᴜᴘᴅᴀᴛᴇ",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
-            "UPDATED": "*ᴜᴘᴅᴀᴛᴇᴅ ѕᴜᴄᴇѕғᴜʟʟʏ*",
-            "UPDATED_LOCAL": "*ᴜᴘᴅᴀᴛᴇᴅ ѕᴜᴄᴇѕғᴜʟʟʏ*",
+            "UPDATED": "*ᴜᴘᴅᴀᴛᴇᴅ ѕᴜᴄᴇѕѕғᴜʟʟʏ*",
+            "UPDATED_LOCAL": "*ᴜᴘᴅᴀᴛᴇᴅ ѕᴜᴄᴇѕѕғᴜʟʟʏ*",
             "AFTER_UPDATE": "*ᴀᴜᴛᴏ ʀᴇѕᴛᴀʀᴛ ᴏɴ ᴘʀᴏɢʀᴇѕѕ*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
